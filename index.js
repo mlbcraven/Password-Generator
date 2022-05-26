@@ -7,7 +7,10 @@ let characterNumber = 0
 
 function createPassword() {
     characterNumber = document.getElementById('characterNumber').value
-    let Rtext = ""
+    let Rtext1 = ""
+    let Rtext2 = ""
+    let Rtext3 = ""
+    let Rtext4 = ""
     for (let i = 0; i < characterNumber; i++) {
         Rtext1 += Array.charAt(Math.floor(Math.random() * characterNumber))
         Rtext2 += Array.charAt(Math.floor(Math.random() * characterNumber))
