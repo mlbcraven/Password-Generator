@@ -1,4 +1,4 @@
-let Array = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+let Array = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 let r1 = document.getElementById('R1');
 let r2 = document.getElementById('R2');
 let r3 = document.getElementById('R3');
