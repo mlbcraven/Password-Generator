@@ -9,11 +9,14 @@ function createPassword() {
     characterNumber = document.getElementById('characterNumber').value
     let Rtext = ""
     for (let i = 0; i < characterNumber; i++) {
-        Rtext += Array.charAt(Math.floor(Math.random() * characterNumber))
+        Rtext1 += Array.charAt(Math.floor(Math.random() * characterNumber))
+        Rtext2 += Array.charAt(Math.floor(Math.random() * characterNumber))
+        Rtext3 += Array.charAt(Math.floor(Math.random() * characterNumber))
+        Rtext4 += Array.charAt(Math.floor(Math.random() * characterNumber))
     }
-    r1.textContent = Rtext
-    r2.textContent = Rtext
-    r3.textContent = Rtext
-    r4.textContent = Rtext
+    r1.textContent = Rtext1
+    r2.textContent = Rtext2
+    r3.textContent = Rtext3
+    r4.textContent = Rtext4
     return Rtext 
 }
