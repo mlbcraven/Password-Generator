@@ -12,10 +12,10 @@ function createPassword() {
     let Rtext3 = ""
     let Rtext4 = ""
     for (let i = 0; i < characterNumber; i++) {
-        Rtext1 += Array.charAt(Math.floor(Math.random() * characterNumber))
-        Rtext2 += Array.charAt(Math.floor(Math.random() * characterNumber))
-        Rtext3 += Array.charAt(Math.floor(Math.random() * characterNumber))
-        Rtext4 += Array.charAt(Math.floor(Math.random() * characterNumber))
+        Rtext1 += Array.charAt(Math.floor(Math.random() * Array.length-1))
+        Rtext2 += Array.charAt(Math.floor(Math.random() * Array.length-1))
+        Rtext3 += Array.charAt(Math.floor(Math.random() * Array.length-1))
+        Rtext4 += Array.charAt(Math.floor(Math.random() * Array.length-1))
     }
     r1.textContent = Rtext1
     r2.textContent = Rtext2
